@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  /* when form is submitted */
+
   // var resElement = document.getElementById('res');
   $('.form').submit(function(){
     var resElement = document.getElementById('res');
@@ -8,7 +8,7 @@ $(document).ready(function() {
     searchQuery();
     return false;
   });
-  /* when search button is clicked */
+ 
   $('#search-bttn').click(function(){
     var resElement = document.getElementById('res');
     resElement.innerHTML = " ";
@@ -33,7 +33,7 @@ $(document).ready(function() {
     
     
   }
-  /* render function to append the search result pages */
+
    function render(data){
     var selection ="http://en.wikipedia.org/?curid=";
     

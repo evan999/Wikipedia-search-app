@@ -5,26 +5,21 @@
   <title>Wikipedia Viewer App</title>
   <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <!-- bootstrap css cdn -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <!-- jquery and bootstrap js files cdn -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
  crossorigin="anonymous"></script>
 </head>
 <body>
-  <!-- inside body -->
-  <div class="container-fluid">
+    <div class="container-fluid">
     <div class="row" id="heading">
       <div class="col-md-6 col-md-push-3 col-xs-6 col-xs-push-3">
         <h1 class="">Wikipedia Viewer</h1>
-        <!-- continued here -->
         <div class="text-center" id="random">
           <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">
             <div>Show a random article</div>
           </a>
         </div>
-        <!-- form for search input -->
         <form class="form" action="javascript:void(0);">
           <div class="input-group">
             <input type="text" name="query" id="query" class="form-control input-lg" placeholder="What can I help you with?">
@@ -34,7 +29,6 @@
       </div>
     </div>
   </div>
-  <!-- container div to render the search results from Wikipedia -->
   <div class="container">
     <div id="res">
     </div>
